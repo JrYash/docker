@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 import numpy as np
 import pandas as pd
 
@@ -22,3 +22,4 @@ def use_pandas():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
+
